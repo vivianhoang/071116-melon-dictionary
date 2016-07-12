@@ -5,7 +5,7 @@ Prints out all the melons in our inventory
 from melons import melons  # from melons.py file, import melons dictionary
 
 
-def print_melons(melon_data):  # takes in out data that we imported
+def print_melons(melon_data):  # takes in our data that we imported
     """Prints the melon, its attributes, and values of those attributes"""
 
     for melon, traits in melon_data.items():  # from key, value in our file, we extract tuples and unpack into 'melon' and 'traits'. Accesses the first layer of the dictionary, which is the name of the melon.
